@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Etroit-Regular';
+  src: url('/Users/yaprakbuse/Desktop/Portfolio/Calisma_Dosyalari/Website/Etroit-Regular.woff') format('woff'),
+
+}
+
+.vertical-links a {
+  display: block;          /* her link alt satıra iner */
+  padding: 2px 0;         /* dikey boşluk */
+  text-decoration: none;   /* alt çizgiyi kaldırma (isteğe bağlı) */
+  color: inherit;          /* metin rengini koru */
+  /*transition: color 0.3s ease, background-color 0.3s ease; /* animasyon */
+  }
+
+  .vertical-links a:hover {
+    color: rgb(195, 116, 255);                /* yazı rengini değiştir */
+    /*background-color: #333;     /* arka plan değiştir */
+  }
+  
+.vertical-links a:focus-visible {
+  outline: 3px solid Highlight; /* erişilebilir odak stili */
+}
+
+.vertical-links p {
+  font-weight: bold;
+}
